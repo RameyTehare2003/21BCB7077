@@ -1,8 +1,8 @@
 # Name : Ramey-21BCB7077 
 #### Task Status : 
-- [ ] Day 1 HTML Introduction - HTML Attributes
-- [ ] Day 2 HTML Headings - HTML CSS
-- [ ] Day 3 HTML Links - HTML Lists
-- [ ] Day 4 HTML Block & Inline - HTML Responsive
-- [ ] Day 5 HTML Forms and CSS Syntax - CSS Padding
-- [ ] Day 6 CSS Position, Navigation, Dropdown, Forms, Website Layout
+- [x] Day 1 HTML Introduction - HTML Attributes
+- [x] Day 2 HTML Headings - HTML CSS
+- [x] Day 3 HTML Links - HTML Lists
+- [x] Day 4 HTML Block & Inline - HTML Responsive
+- [x] Day 5 HTML Forms and CSS Syntax - CSS Padding
+- [x] Day 6 CSS Position, Navigation, Dropdown, Forms, Website Layout

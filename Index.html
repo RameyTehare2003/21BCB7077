@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle"></div>
+        </header>
+
+        <img src="image_2021-11-28_162639-removebg-preview.png" class="Ramey">
+        <div class="content">
+            <div class="contentBx">
+                <h3>Hey, Welcome</h3>
+                <h2>I'm Ramey Tehare</h2>
+                <p>I'm pursuing B.Tech Computer Science and Engineering with Business Systems from Vellore Institute of
+                    Technology, AP</p>
+                <a href="#">Hire Me</a>
+                <a href="#">Download Resume</a>
+            </div>
+        </div>
+
+
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <img src="1.png" class="elements" data-speed="8">
+        <img src="2.png" class="elements" data-speed="6">
+        <img src="3.png" class="elements" data-speed="-10">
+        <img src="4.png" class="elements" data-speed="-6">
+    </section>
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner');
+        toggle.onclick = function () {
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+        function parallax(e) {
+            this.querySelectorAll('.elements').forEach(Layer => {
+                const speed = Layer.getAttribute('data-speed');
+                const x = (window.innerwidth - e.pageX * speed) / 100;
+                Layer.style.transform = `translateX(${x}px)`;
+            })
+        }
+        document.addEventListener("mousemove", parallax);
+    </script>
+</body>
+
+</html>

@@ -6,3 +6,4 @@
 - [x] Day 4 HTML Block & Inline - HTML Responsive
 - [x] Day 5 HTML Forms and CSS Syntax - CSS Padding
 - [x] Day 6 CSS Position, Navigation, Dropdown, Forms, Website Layout
+https://rameytehare2003.github.io/Ramey-21BCB7077/
